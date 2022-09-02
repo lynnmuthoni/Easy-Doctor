@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#F02BB1BD"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/steth" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/mTvName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Ali"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/mTvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="ali@gmail.com"
+        android:textSize="19sp" />
+</LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/mTvEmail"
+        android:layout_marginTop="6dp"
+        android:background="@color/black" />
+
+
+
+</LinearLayout>

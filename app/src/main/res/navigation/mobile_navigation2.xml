@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_emergency">
+
+    <fragment
+        android:id="@+id/nav_emergency"
+        android:name="com.example.easydoc.ui.emergency.EmergencyFragment"
+        android:label="emergency"
+        tools:layout="@layout/fragment_emergency" />
+    <fragment
+        android:id="@+id/nav_location"
+        android:name="com.example.easydoc.MapsFragment"
+        android:label="Location"
+        tools:layout="@layout/fragment_maps" />
+
+    <fragment
+        android:id="@+id/nav_appointment"
+        android:name="com.example.easydoc.ui.appointments.AppointmentFragment"
+        android:label="@string/menu_appointments"
+        tools:layout="@layout/fragment_appointment" />
+
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.easydoc."
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+</navigation>

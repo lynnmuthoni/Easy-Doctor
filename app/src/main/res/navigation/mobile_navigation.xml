@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.easydoc.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.easydoc.ui.gallery.GalleryFragment"
+        android:label="@string/menu_ambulance"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.easydoc.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_appointments"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.easydoc."
+        android:label="@string/menu_appointments" />
+    <fragment
+        android:id="@+id/nav_maps"
+        android:name="com.example.easydoc.MapsFragment"
+        android:label="Location"
+        tools:layout="@layout/fragment_maps" />
+
+
+
+
+
+</navigation>
